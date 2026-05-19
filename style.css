@@ -5,27 +5,38 @@ header{
   /* Add height and width here */
   background-color: lightcyan;
   text-align: center;
+  width: 100vw;
+  height: 20vh;
+  flex: 1;
 }
 
 .middle-section{
   /* Add height and width here */
-  background-color: lightpink;
+  width:100vw;
+  
   /* Add flex properties here */
+  display: flex; 
+  justify-content: flex-start;
+  
 }
 
 aside{
   /* Add height and width here */
   background-color: lightseagreen;
+  justify-content: flex-start;
 }
 
 .image-section{
   /* Add height and width here */
   background-color: aliceblue;
   /* Add flex properties here */
-  text-align: left;
+  text-align: center;
+  justify-content:
 }
 
 footer{
   /* Add height and width here */
   background-color: lime;
+  width: 100vw;
+  height:25vh;
 }
